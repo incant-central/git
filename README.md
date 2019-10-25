@@ -20,9 +20,9 @@ This is a work-in-progress. It is an attempt to comprehensively define the git c
 [x] rev-parse
 [x] stash
 [x] tag
-[ ] fetch
-[ ] pull
-[ ] push
+[-] fetch - __in-progress__
+[-] pull - __in-progress__
+[-] push - __in-progress__
 [ ] remote
 [ ] apply
 [ ] cherry-pick
