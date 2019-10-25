@@ -3044,6 +3044,69 @@
                             }
                         ]
                     },
+                    "fetch": {
+                        "args": [
+                            {
+                                "name": "all",
+                                "type": "option",
+                                "useValue": false,
+                                "without": [
+                                    "multiple"
+                                ]
+                            },
+                            {
+                                "name": "multiple",
+                                "type": "option",
+                                "useValue": false,
+                                "without": [
+                                    "all"
+                                ]
+                            },
+                            {
+                                "name": "repository",
+                                "type": "value",
+                                "without": [
+                                    "group"
+                                ]
+                            },
+                            {
+                                "name": "repositories",
+                                "type": "values",
+                                "without": [
+                                    "respository",
+                                    "group"
+                                ],
+                                "with": [
+                                    "multiple"
+                                ]
+                            },
+                            {
+                                "name": "group",
+                                "type": "value",
+                                "without": [
+                                    "repository"
+                                ]
+                            },
+                            {
+                                "name": "groups",
+                                "type": "values",
+                                "without": [
+                                    "repository",
+                                    "group"
+                                ],
+                                "with": [
+                                    "multiple"
+                                ]
+                            },
+                            {
+                                "name": "refspec",
+                                "type": "value",
+                                "without": [
+                                    "multiple"
+                                ]
+                            }
+                        ]
+                    },
                     "push": {
                         "args": [
                             {
