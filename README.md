@@ -19,7 +19,7 @@ This is a work-in-progress. It is an attempt to comprehensively define the git c
 [x] rev-list
 [x] rev-parse
 [x] stash
-[ ] tag
+[x] tag
 [ ] fetch
 [ ] pull
 [ ] push

@@ -2731,6 +2731,319 @@
                             }
                         }
                     },
+                    "tag": {
+                        "args": [
+                            {
+                                "name": "a",
+                                "type": "flag",
+                                "aka": "annotate",
+                                "without": [
+                                    "annotate",
+                                    "s",
+                                    "u"
+                                ]
+                            },
+                            {
+                                "name": "annotate",
+                                "type": "option",
+                                "useValue": false,
+                                "aka": "a",
+                                "without": [
+                                    "a",
+                                    "s",
+                                    "u"
+                                ]
+                            },
+                            {
+                                "name": "s",
+                                "type": "flag",
+                                "aka": "sign",
+                                "without": [
+                                    "sign",
+                                    "a",
+                                    "u"
+                                ]
+                            },
+                            {
+                                "name": "sign",
+                                "type": "option",
+                                "useValue": false,
+                                "aka": "s",
+                                "without": [
+                                    "s",
+                                    "a",
+                                    "u"
+                                ]
+                            },
+                            {
+                                "name": "u",
+                                "type": "flag",
+                                "useValue": true,
+                                "aka": "user",
+                                "without": [
+                                    "user",
+                                    "a",
+                                    "s"
+                                ]
+                            },
+                            {
+                                "name": "local-user",
+                                "type": "option",
+                                "useValue": true,
+                                "join": "=",
+                                "aka": "u",
+                                "without": [
+                                    "u",
+                                    "a",
+                                    "s"
+                                ]
+                            },
+                            {
+                                "name": "f",
+                                "type": "flag",
+                                "aka": "force",
+                                "without": [
+                                    "force"
+                                ]
+                            },
+                            {
+                                "name": "force",
+                                "type": "option",
+                                "useValue": false,
+                                "aka": "f",
+                                "without": [
+                                    "f"
+                                ]
+                            },
+                            {
+                                "name": "d",
+                                "type": "flag",
+                                "aka": "delete",
+                                "without": [
+                                    "delete"
+                                ]
+                            },
+                            {
+                                "name": "delete",
+                                "type": "option",
+                                "useValue": false,
+                                "aka": "d",
+                                "without": [
+                                    "d"
+                                ]
+                            },
+                            {
+                                "name": "v",
+                                "type": "flag",
+                                "aka": "verify",
+                                "without": [
+                                    "verify"
+                                ]
+                            },
+                            {
+                                "name": "verify",
+                                "type": "option",
+                                "useValue": false,
+                                "aka": "v",
+                                "without": [
+                                    "v"
+                                ]
+                            },
+                            {
+                                "name": "n",
+                                "type": "flag",
+                                "useValue": true,
+                                "join": ""
+                            },
+                            {
+                                "name": "l",
+                                "type": "flag",
+                                "useValue": "string",
+                                "aka": "list",
+                                "without": [
+                                    "list"
+                                ]
+                            },
+                            {
+                                "name": "list",
+                                "type": "option",
+                                "useValue": "string",
+                                "aka": "l",
+                                "without": [
+                                    "l"
+                                ]
+                            },
+                            {
+                                "name": "sort",
+                                "type": "option",
+                                "useValue": true,
+                                "join": "="
+                            },
+                            {
+                                "name": "color",
+                                "type": "option",
+                                "useValue": "string",
+                                "join": "="
+                            },
+                            {
+                                "name": "i",
+                                "type": "flag",
+                                "aka": "ignore-case",
+                                "without": [
+                                    "ignore-case"
+                                ]
+                            },
+                            {
+                                "name": "ignore-case",
+                                "type": "option",
+                                "useValue": false,
+                                "aka": "i",
+                                "without": [
+                                    "i"
+                                ]
+                            },
+                            {
+                                "name": "column",
+                                "type": "option",
+                                "useValue": "string",
+                                "without": [
+                                    "no-column"
+                                ]
+                            },
+                            {
+                                "name": "no-column",
+                                "type": "option",
+                                "useValue": false,
+                                "without": [
+                                    "column"
+                                ]
+                            },
+                            {
+                                "name": "contains",
+                                "type": "option",
+                                "useValue": "string"
+                            },
+                            {
+                                "name": "no-contains",
+                                "type": "option",
+                                "useValue": "string"
+                            },
+                            {
+                                "name": "merged",
+                                "type": "option",
+                                "useValue": "string"
+                            },
+                            {
+                                "name": "no-merged",
+                                "type": "option",
+                                "useValue": "string"
+                            },
+                            {
+                                "name": "points-at",
+                                "type": "option",
+                                "useValue": "string"
+                            },
+                            {
+                                "name": "m",
+                                "type": "flag",
+                                "useValue": true,
+                                "aka": "message",
+                                "without": [
+                                    "message"
+                                ]
+                            },
+                            {
+                                "name": "message",
+                                "type": "option",
+                                "join": "=",
+                                "aka": "m",
+                                "without": [
+                                    "m"
+                                ]
+                            },
+                            {
+                                "name": "F",
+                                "type": "flag",
+                                "useValue": true,
+                                "aka": "file",
+                                "without": [
+                                    "file"
+                                ]
+                            },
+                            {
+                                "name": "file",
+                                "type": "option",
+                                "join": "=",
+                                "aka": "F",
+                                "without": [
+                                    "F"
+                                ]
+                            },
+                            {
+                                "name": "e",
+                                "type": "flag",
+                                "aka": "edit",
+                                "without": [
+                                    "edit"
+                                ]
+                            },
+                            {
+                                "name": "edit",
+                                "type": "option",
+                                "useValue": false,
+                                "aka": "e",
+                                "without": [
+                                    "e"
+                                ]
+                            },
+                            {
+                                "name": "cleanup",
+                                "type": "option",
+                                "useValue": true,
+                                "join": "=",
+                                "choices": [
+                                    "verbatim",
+                                    "whitespace",
+                                    "strip"
+                                ]
+                            },
+                            {
+                                "name": "create-reflog",
+                                "type": "option",
+                                "useValue": false
+                            },
+                            {
+                                "name": "format",
+                                "type": "option",
+                                "useValue": true,
+                                "join": "="
+                            },
+                            {
+                                "name": "tagname",
+                                "type": "value"
+                            },
+                            {
+                                "name": "commit",
+                                "type": "value",
+                                "with": [
+                                    "tagname"
+                                ],
+                                "without": [
+                                    "object"
+                                ]
+                            },
+                            {
+                                "name": "object",
+                                "type": "value",
+                                "with": [
+                                    "tagname"
+                                ],
+                                "without": [
+                                    "commit"
+                                ]
+                            }
+                        ]
+                    },
                     "push": {
                         "args": [
                             {
