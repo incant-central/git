@@ -1,6 +1,6 @@
 {
   "name": "@incant/git",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Git ShellSpec",
   "main": "git.json",
   "scripts": {
