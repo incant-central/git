@@ -26,7 +26,6 @@
                     {
                         "name": "c",
                         "type": "flag",
-                        "join": "=",
                         "useValue": true
                     },
                     {
